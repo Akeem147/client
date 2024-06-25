@@ -22,7 +22,7 @@ const HomeBanner = () => {
         <img
           className="w-[450px] h-[254px] absolute right-[60%] bottom-[-160px] border-4 border-gray-300 rounded-md"
           src={smallImg}
-          alt="banner small image"
+          alt="small image"
         />
       </div>
     </div>
