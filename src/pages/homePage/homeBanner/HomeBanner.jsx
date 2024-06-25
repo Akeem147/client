@@ -18,11 +18,11 @@ const HomeBanner = () => {
         </button>
       </div>
       <div className="relative">
-        <img className="w-[600px] h-[550px]" src={bigImg} alt="" />
+        <img className="w-[600px] h-[550px]" src={bigImg} alt="banner big image" />
         <img
           className="w-[450px] h-[254px] absolute right-[60%] bottom-[-160px] border-4 border-gray-300 rounded-md"
           src={smallImg}
-          alt=""
+          alt="banner small image"
         />
       </div>
     </div>
