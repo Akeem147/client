@@ -4,7 +4,7 @@ import testimonial from "../../../assets/testimonial.png";
 const HomeTestimonial = () => {
   return (
     <div className="w-full h-[28vh] bg-[#0029FF] mt-[50px] mb-[60px] p-10 px-[80px]">
-      <h2 className="text-white mb-5 text-3xl font-semibold">Testimonials</h2>
+      <h2 className="text-white mb-5 text-2xl font-semibold">Testimonials</h2>
       <div className="flex gap-6">
         {/* TESTIMONIAL 1 */}
         <div className="bg-white w-[400px] h-auto p-7 shadow-lg mb-8 rounded-md ">

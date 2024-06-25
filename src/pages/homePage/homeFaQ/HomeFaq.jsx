@@ -39,19 +39,19 @@ const HomeFaq = () => {
     setShowText6((prev) => !prev);
   };
   return (
-    <div className="mt-[80px] w-[60%] mx-auto pb-5 h-auto">
-      <h3 className="text-center text-3xl font-bold">
-        Frequently asked Questions
+    <div className="mt-[80px] w-[50%] mx-auto pb-5 h-auto">
+      <h3 className="text-center text-2xl font-bold">
+        Frequently asked <br/>Questions
       </h3>
-      <div className="bg-[#4D68FF] text-white mt-8 h-auto p-10 rounded-lg flex flex-col gap-8 mb-3">
+      <div className="bg-[#4D69FF] text-white mt-8 h-auto p-10 rounded-lg flex flex-col gap-8 mb-3">
         {/* FAQ QUESTION 1 */}
         <div className="flex items-center justify-between relative border-b">
           <div>
-            <h2 className="text-[20px] font-semibold mb-3">
+            <h2 className="text-[16px] font-semibold mb-3">
               Who are the key personnel at Dartcom Projects Nigeria Limited?
             </h2>
             {showText && (
-              <p className="pb-5">
+              <p className="pb-5 text-[14px]">
                 Dartcom Projects Nigeria Limited is a company owned and managed
                 by a group of indegeneous professionals and seasoned engineers.
                 The company specializes in engineering and management
@@ -71,11 +71,11 @@ const HomeFaq = () => {
         {/* FAQ QUESTION 2 */}
         <div className="flex items-center justify-between relative border-b">
           <div>
-            <h2 className="text-[20px] font-semibold mb-3">
+            <h2 className="text-[16px] font-semibold mb-3">
               What is Dartcom Projects Nigeria Limited?
             </h2>
             {showText1 && (
-              <p className="pb-5">
+              <p className="pb-5 text-[14px]">
                 Dartcom Projects Nigeria Limited is a company owned and managed
                 by a group of indegeneous professionals and seasoned engineers.
                 The company specializes in engineering and management
@@ -95,11 +95,11 @@ const HomeFaq = () => {
         {/* FAQ QUESTION 3 */}
         <div className="flex items-center justify-between relative border-b">
           <div>
-            <h2 className="text-[20px] font-semibold mb-3">
+            <h2 className="text-[16px] font-semibold mb-3">
               What is the mission of Dartcom Project Nigeria?
             </h2>
             {showText2 && (
-              <p className="pb-5">
+              <p className="pb-5 text-[14px]">
                 Dartcom Projects Nigeria Limited is a company owned and managed
                 by a group of indegeneous professionals and seasoned engineers.
                 The company specializes in engineering and management
@@ -119,11 +119,11 @@ const HomeFaq = () => {
         {/* FAQ QUESTION 4 */}
         <div className="flex items-center justify-between relative border-b">
           <div>
-            <h2 className="text-[20px] font-semibold mb-3">
+            <h2 className="text-[16px] font-semibold mb-3">
               How does Dartcom Projects collaborate with clients?
             </h2>
             {showText3 && (
-              <p className="pb-5">
+              <p className="pb-5 text-[14px]">
                 Dartcom Projects Nigeria Limited is a company owned and managed
                 by a group of indegeneous professionals and seasoned engineers.
                 The company specializes in engineering and management
@@ -143,11 +143,11 @@ const HomeFaq = () => {
         {/* FAQ QUESTION 5 */}
         <div className="flex items-center justify-between relative border-b">
           <div>
-            <h2 className="text-[20px] font-semibold mb-3">
+            <h2 className="text-[16px] font-semibold mb-3">
               How does Dartcom Projects collaborate with clients?
             </h2>
             {showText4 && (
-              <p className="pb-5">
+              <p className="pb-5 text-[14px]">
                 Dartcom Projects Nigeria Limited is a company owned and managed
                 by a group of indegeneous professionals and seasoned engineers.
                 The company specializes in engineering and management
@@ -167,11 +167,11 @@ const HomeFaq = () => {
         {/* FAQ QUESTION 6 */}
         <div className="flex items-center justify-between relative border-b">
           <div>
-            <h2 className="text-[20px] font-semibold mb-3">
+            <h2 className="text-[16px] font-semibold mb-3">
               What is the company's founding pronciple?
             </h2>
             {showText5 && (
-              <p className="pb-5">
+              <p className="pb-5 text-[14px]">
                 Dartcom Projects Nigeria Limited is a company owned and managed
                 by a group of indegeneous professionals and seasoned engineers.
                 The company specializes in engineering and management
@@ -191,11 +191,11 @@ const HomeFaq = () => {
         {/* FAQ QUESTION 7 */}
         <div className="flex items-center justify-between relative border-b">
           <div>
-            <h2 className="text-[20px] font-semibold mb-3">
+            <h2 className="text-[16px] font-semibold mb-3">
               How can i contact Dartcom Project Nigeria Limited?
             </h2>
             {showText6 && (
-              <p className="pb-5">
+              <p className="pb-5 text-[14px]">
                 Dartcom Projects Nigeria Limited is a company owned and managed
                 by a group of indegeneous professionals and seasoned engineers.
                 The company specializes in engineering and management

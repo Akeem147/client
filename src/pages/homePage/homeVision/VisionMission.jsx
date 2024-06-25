@@ -5,13 +5,13 @@ import belief from "../../../assets/belief.png";
 
 const VisionMission = () => {
   return (
-    <div className="w-full h-auto pb-8 pt-[160px] px-[80px]">
+    <div className="w-full h-auto pb-8 pt-[160px] px-[5rem]">
       {/* OUR VISION SECTION */}
-      <div className="flex items-center gap-[8rem]">
-        <img className="w-[550px]" src={vision} alt="vision" />
+      <div className="flex items-center gap-[3rem]">
+        <img className="w-[500px]" src={vision} alt="vision" />
         <div className="text-center">
           <h2 className="font-bold text-3xl mb-4">OUR VISION</h2>
-          <p className="w-[520px] text-xl">
+          <p className="w-[520px] text-[18px]">
             To be Nigeria's foremost company in our discipline to contribute to
             a meaningful quota in achieving vision 2020. To drastically reduce
             unemployment by investing in human capital development.
@@ -20,24 +20,24 @@ const VisionMission = () => {
       </div>
 
       {/* OUR MISSION SECTION */}
-      <div className="flex items-center pt-[50px] gap-[8rem]">
+      <div className="flex items-center pt-[50px] gap-[3rem]">
         <div className="text-center">
           <h2 className="font-bold text-3xl mb-4">OUR MISSION</h2>
-          <p className="w-[520px] text-xl">
+          <p className="w-[520px] text-[18px]">
             We pledge to deliver without breach of terms. We pledge to develop
             Nigerian's local content. We pledge to uphold national pride and
             nations building
           </p>
         </div>
-        <img className="w-[550px]" src={mission} alt="" />
+        <img className="w-[500px]" src={mission} alt="" />
       </div>
 
       {/* OUR BELIEF SECTION */}
-      <div className="flex pt-[40px] gap-8">
-        <img className="pt-3 w-[550px]" src={belief} alt="vision" />
-        <div className="pt-2">
+      <div className="flex pt-[50px] gap-8">
+        <img className="pt-3 w-[500px] h-[425px]" src={belief} alt="vision" />
+        <div className="pt-2 w-[550px]">
           <h2 className="font-bold text-3xl mb-4 text-center">OUR BELIEF</h2>
-          <div className="flex flex-col gap-[70px]">
+          <div className="flex flex-col gap-[39px]">
             <p className="text-[#0D1821] ">
               <span className="font-semibold">PEOPLE</span>: To be the company
               that the people want to join and stay with.

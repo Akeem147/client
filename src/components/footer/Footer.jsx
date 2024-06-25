@@ -40,7 +40,7 @@ const Footer = () => {
           <img className="my-5" src={pinterest} alt="pinterest" />
         </div>
       </div>
-      <p className="border-t-2 text-end pr-10 pt-4">Copyright: 2024 Dartcom Publishers</p>
+      <p className="border-t-2 text-end pr-[82px] pt-4">Copyright: 2024 Dartcom Publishers</p>
     </div>
   );
 };
